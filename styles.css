@@ -1,3 +1,20 @@
+
+
+
+body {
+
+    background-image: linear-gradient(rgb(243, 216, 180),white);
+}
+
+
+
+
+
+h1,h3,h4,p,ul{
+    color: darkblue;
+}
+
+
 .col-12 {width: 100%;}
 
 
