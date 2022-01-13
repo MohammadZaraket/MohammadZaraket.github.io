@@ -20,6 +20,23 @@ body {
 }
 
 
+.row {
+    
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items:center;
+}
+
+
+.row::after {
+
+    display: table;
+    clear: both;
+    content: "";
+}
+
+
 h4 {
     color: darkblue;
 }
@@ -90,5 +107,17 @@ img {
     opacity: 0.9;
     display: block;
     margin-right: 10%;
+
+}
+
+
+div.box {
+    
+    text-align: center;
+    margin: 20px;
+    padding: 25px;
+    border-radius: 5px;
+    background-color: floralwhite;
+    box-shadow: 0px 0px 0px 1px rgba(84,20,243,0.15);
 
 }
