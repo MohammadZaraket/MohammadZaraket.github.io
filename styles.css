@@ -30,7 +30,7 @@ h3 {
 }
 
 
-h1,h2,p,ul{
+h1,h2,p,ul,ol{
     padding-left: 2%;
     color: darkblue;
 }
@@ -80,4 +80,14 @@ hr {
 
     border-top: 2px dashed rgb(180, 57, 57);
     width: 30%;
+}
+
+
+img {
+
+    border-radius: 50%;
+    opacity: 0.9;
+    display: block;
+    margin-right: 10%;
+
 }
