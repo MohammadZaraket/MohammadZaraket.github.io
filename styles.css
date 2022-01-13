@@ -1,21 +1,45 @@
 
 
 
+
 body {
 
     background-image: linear-gradient(rgb(243, 216, 180),white);
 }
 
 
+.container {
+    
+    width: 100%;
+    /*margin: auto;*/
+    padding-top: 2%;
+    padding-bottom: 2%;
+    /*padding-left: 4%;*/
+    /*margin-left: 5%;*/
+       
+}
 
 
+h4 {
+    color: darkblue;
+}
 
-h1,h3,h4,p,ul{
+h3 {
+    font-size: larger;
+    color: darkblue;
+}
+
+
+h1,h2,p,ul{
+    padding-left: 2%;
     color: darkblue;
 }
 
 
 .col-12 {width: 100%;}
+
+
+
 
 
 footer {
@@ -49,4 +73,11 @@ footer.foot ul li a {
     color: aliceblue;
     font-size: 15px;
     line-height: 1.5;
+}
+
+
+hr {
+
+    border-top: 2px dashed rgb(180, 57, 57);
+    width: 30%;
 }
