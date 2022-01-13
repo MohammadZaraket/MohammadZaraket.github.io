@@ -2,28 +2,32 @@
 
     <head>
         <title>Mohammad Zaraket's CV</title>
+        <link rel="stylesheet" href="styles.css">
     </head>
 
     <body>
 
-        <div>
-            <img src="Images/ProfilePic.jpg" alt="personal picture" width="28%" height="42%" Align="right"/>  <!-- trying to alig the image without css:)-->
-            <h1>Welcome!</h1>
-            <h3>I'm Mohammad Zaraket</h3>
+        <div class="container" id="section-1-gradient">
+            <div class="imageContainer">
+            <img  src="Images/ProfilePic.jpg" alt="personal picture" width="28%" height="42%" Align="right"/>
+            </div>  <!-- trying to alig the image without css:)-->
+            <h1>Mohammad Zaraket</h1>
+            <h3>Fresh Graduate Computer & Communication Engineer</h3>
         
             <div>
-                <p>
+                <p class="header">
                 <b>Email:</b> <a href="mailto:mohammadmzaraket@gmail.com"> mohammadmzaraket@gmail.com </a>  <br/> <br/>
                 <b>LinkedIn:</b> <a href="https://www.linkedin.com/in/mohammad-zaraket/">https://www.linkedin.com/in/mohammad-zaraket/</a><br/><br/>
                 <b>Address:</b> Beirut,Lebanon <br/><br/>
                 <b>&#9742; Phone Number:</b> 71971634 <br/><br/> <!-- using a telephone symbol &#9742; -->
                 </p>
             </div>
+            <br/>
+            <hr/><hr/>
 
         </div>
 
-        <br/>
-        <hr/><hr/>
+
 
         <div>
         <h3>Experience:</h3>
@@ -85,14 +89,23 @@
                 <br/>Fluent
             </li>
         </ul>
-        
-        <h5>Thank you for checking our website, we really appreciate it.<br/>
-            For more information about me please <a href="info.html">  &#9758; CLICK HERE </a> <!-- hypertext link to a local file-->
-        </h5>
-
-
 
         </div>
+
+        <footer class="foot">
+            <div class="row">
+                <div class="col-12">
+                    <h1> Thank you for checking our website, we really appreciate it.
+                        For more information about me please  &#9759; SELECT DOWN <!-- hypertext link to a local file--></h1>
+                    <ul>
+                        <li> <a href="info.html">Info</a></li>
+                        <li><a href="info.html">Hobbies</a></li>
+
+                    </ul> 
+                </div>        
+            
+            </div>        
+        </footer>
         
 
     </body>
