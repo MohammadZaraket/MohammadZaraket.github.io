@@ -1,7 +1,3 @@
-
-
-
-
 body {
 
     background-image: linear-gradient(rgb(243, 216, 180),white);
@@ -11,14 +7,12 @@ body {
 .container {
     
     width: 100%;
-    /*margin: auto;*/
     padding-top: 2%;
     padding-bottom: 2%;
-    /*padding-left: 4%;*/
-    /*margin-left: 5%;*/
        
 }
 
+/*Styling Row*/
 
 .row {
     
@@ -37,6 +31,8 @@ body {
 }
 
 
+/*Finish Styling Row*/
+
 h4 {
     color: darkblue;
 }
@@ -52,13 +48,13 @@ h1,h2,p,ul{
     color: darkblue;
 }
 
-
+/* divide the row into specific number of columns*/
 .col-12 {width: 100%;}
 .col-4 {width: 33.33%;}
 
 
 
-
+/*Styling The Footer*/
 
 footer {
     
@@ -93,6 +89,8 @@ footer.foot ul li a {
     line-height: 1.5;
 }
 
+
+/*Finish Styling Footer*/
 
 hr {
 
@@ -132,4 +130,12 @@ label {
     
     font-size: 20px;
     font-weight: 600;
+}
+
+
+/*For Local links */
+.local-link:hover  {
+    
+    color: rgb(36, 18, 112);
+    
 }
